@@ -8,7 +8,7 @@ Self Driving Car is a program that allows a car to react to obstacles in the roa
 
 - The `AutonomousCar` **interface** is implemented by the `Car` **class** which ensure all cars have the functionality to respond to events, and an optional property to identify whether the car `isRunning`.
 - The `Car` **class** takes in a props object with the `AutonomousCarProps` type via its constructor to instantiate new `Car` objects.
-- The `AutonomousCarProps` interface ensures that the Car class implements `SteeringControl` and the optional `isRunning` property.
+- The `AutonomousCarProps` interface ensures that the `Car` **class** implements `SteeringControl` and the optional `isRunning` property.
 - The `SteeringControl` **class** implements the `Steering` interface which allows the car to turn in different directions.
 - The `Steering` **interface** extends the `Control` **interface** which ensures cars have the functionality to execute commands.
 - `getObstacleEvents()` is a **function** that creates random obstacles in the road.
