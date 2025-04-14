@@ -23,4 +23,11 @@ interface Steering extends Control {
   turn: (direction: string) => void;
 }
 
-console.log("hey");
+class SteeringControl implements Steering {
+  execute(command: string) {
+    console.log(`Executing: ${command}`);
+  }
+  turn(direction: string) {
+    this.execute(`turn ${direction}`);
+  }
+}
