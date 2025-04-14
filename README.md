@@ -2,7 +2,7 @@
 
 ## About
 
-Self Driving Car is a program that allows a car to react to obstacles in the road. It is a simple project that uses TypeScript interfaces to apply types to a variety of classes, properties, and methods.
+Self Driving Car is a program that allows a car to react to obstacles in the road. It uses TypeScript interfaces to apply types to a variety of classes, properties, and methods.
 
 ## Features and code breakdown
 
